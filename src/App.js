@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import MoleContainer from "./Components/MoleContainer";
+import Button from "react-bootstrap/Button";
 
 function App() {
   let [score, setScore] = useState(0);
@@ -28,7 +29,11 @@ function App() {
     </div>
   );
 }
-
+<>
+  <Button variant="outline-primary">Start</Button>{" "}
+  <Button variant="outline-secondary">Pause</Button>{" "}
+  <Button variant="outline-reset">Reset</Button>{" "}
+</>;
 export default App;
 
 // Declare a function called createMoleHill()
