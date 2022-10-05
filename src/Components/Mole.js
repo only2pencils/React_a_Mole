@@ -21,4 +21,11 @@ function Mole(props) {
   );
 }
 
+//THESE ADDITIONS WILL BE ACTIVE AS THE USERS POINTS INCREASE//
+//Add levels based on reaching certain points threshold
+//trying to add random color change with moles as the user progresses
+//trying to add helmets and hard hats randomly to moles as the user progresses
+//Hard Hat and Helmet causes user to lose points upon clicking
+//Want to also add color changing moles as the user progresses
+
 export default Mole;
